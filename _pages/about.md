@@ -1,18 +1,18 @@
-  ---
-  permalink: /
-  title: "About Me"
-  author_profile: true
-  redirect_from:
-    - /about/
-    - /about.html
-  ---
+---
+permalink: /
+title: "About Me"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
 
-  I am Boen Jiang. This is my personal academic website.
+I am Boen Jiang. This is my personal academic website.
 
-  ## Research Interests
+## Research Interests
 
-  Write your research interests here.
+Write your research interests here.
 
-  ## News
+## News
 
-  - Add your latest updates here.
+- Add your latest updates here.
