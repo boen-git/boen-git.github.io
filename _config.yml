@@ -151,7 +151,6 @@ exclude:
   - node_modules
   - package.json*
   - Rakefile
-  - README
   - tmp
   - vendor
 keep_files:
