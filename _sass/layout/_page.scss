@@ -116,33 +116,6 @@
   }
 }
 
-.about-profile {
-  display: grid;
-  gap: 2rem;
-  align-items: start;
-
-  @include breakpoint($medium) {
-    grid-template-columns: minmax(160px, 220px) minmax(0, 1fr);
-  }
-}
-
-.about-profile__photo {
-  justify-self: start;
-}
-
-.about-profile__photo img {
-  display: block;
-  width: min(220px, 100%);
-  padding: 4px;
-  border: 1px solid var(--global-border-color);
-  border-radius: 4px;
-  background: var(--global-bg-color);
-}
-
-.about-profile__body {
-  max-width: 760px;
-}
-
 .page__hero {
   position: relative;
   margin-bottom: 2em;

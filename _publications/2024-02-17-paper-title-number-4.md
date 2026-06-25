@@ -5,7 +5,6 @@ category: conferences
 excerpt: 'Placeholder abstract for a conference paper.'
 date: 2024-02-17
 venue: 'Conference Placeholder'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
 citation: 'Jiang, B. (2024). &quot;Paper Title Number 4.&quot; <i>Conference Placeholder</i>.'
 ---
 
