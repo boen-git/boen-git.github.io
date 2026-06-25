@@ -122,15 +122,21 @@
   align-items: start;
 
   @include breakpoint($medium) {
-    grid-template-columns: minmax(180px, 280px) minmax(0, 1fr);
+    grid-template-columns: minmax(160px, 220px) minmax(0, 1fr);
   }
+}
+
+.about-profile__photo {
+  justify-self: start;
 }
 
 .about-profile__photo img {
   display: block;
-  width: 100%;
-  max-width: 280px;
-  border-radius: 6px;
+  width: min(220px, 100%);
+  padding: 4px;
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
+  background: var(--global-bg-color);
 }
 
 .about-profile__body {

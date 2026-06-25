@@ -1,7 +1,8 @@
 ---
 layout: single
 permalink: /
-title: "About Me"
+title: "Boen Jiang"
+show_title: false
 author_profile: false
 wide: true
 ---
