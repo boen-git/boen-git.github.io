@@ -6,32 +6,11 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).
 {% endif %}
 
-{% include base_path %}
+- Jiang, B. (2026+). Placeholder paper title on a selected research topic. Working paper. [[Paper]](#) [[Code]](#)
 
-<p>This page lists selected publications. The entries below are placeholders and can be replaced with actual papers, venues, links, and citations.</p>
+- Jiang, B. (2025+). Placeholder paper title for an ongoing project. Manuscript in preparation. [[Paper]](#)
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
+- Jiang, B. (2024). Placeholder conference paper title. Conference Placeholder. [[Paper]](#) [[Code]](#)
