@@ -34,6 +34,15 @@
   }
 }
 
+.page--wide {
+  @include breakpoint($large) {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
@@ -105,6 +114,27 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+}
+
+.about-profile {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+
+  @include breakpoint($medium) {
+    grid-template-columns: minmax(180px, 280px) minmax(0, 1fr);
+  }
+}
+
+.about-profile__photo img {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  border-radius: 6px;
+}
+
+.about-profile__body {
+  max-width: 760px;
 }
 
 .page__hero {
