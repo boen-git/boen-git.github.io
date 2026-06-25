@@ -6,8 +6,9 @@ show_title: false
 author_profile: true
 ---
 
-I am Boen Jiang, a Ph.D. candidate at Fudan University. This personal homepage is a compact place for my academic profile and publications.
+# About me
 
-My research interests include placeholder topics in my field, with a focus on developing rigorous methods, reproducible experiments, and practical applications. This paragraph is intentionally expanded as a placeholder and can be replaced with a fuller biography, research agenda, and current projects.
-
-Please update this section with your education, research direction, advisors, selected experience, and contact information.
+I am currently a Ph.D. candidate at the School of Management, Fudan University.
+My research lies at the intersection of statistics, machine learning, and large language models.
+I am broadly interested in developing statistically principled methodologies for distribution shift, reliable machine learning.
+My recent work focuses on label shift adaptation, semiparametric inference, and statistical modeling of large language model generation processes, with applications to trustworthy AI and efficient inference.
