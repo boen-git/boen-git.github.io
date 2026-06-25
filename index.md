@@ -9,7 +9,7 @@ author_profile: true
 
 I am currently a Ph.D. candidate in Statistics at the School of Management, Fudan University.
 
-My research lies at the intersection of statistics, machine learning, and large language models. I am broadly interested in developing statistically principled methodologies for trustworthy machine learning, distribution shift, and large language models.
+My research lies at the intersection of statistics, machine learning, and large language models. I am broadly interested in developing statistically principled methodologies for trustworthy artificial intelligence.
 
 ## Education
 
